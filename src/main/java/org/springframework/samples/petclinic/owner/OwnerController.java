@@ -138,6 +138,9 @@ class OwnerController {
 	public void debugPlaceholder() {
 	}
 
+	public void debugPlaceholder2() {
+	}
+
 	@PostMapping("/owners/{ownerId}/edit")
 	public String processUpdateOwnerForm(@Valid Owner owner, BindingResult result, @PathVariable("ownerId") int ownerId,
 			RedirectAttributes redirectAttributes) {

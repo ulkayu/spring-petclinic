@@ -52,6 +52,10 @@ class VisitController {
 		dataBinder.setDisallowedFields("id");
 	}
 
+	// test data
+	public void debugPlaceholder5() {
+	}
+
 	/**
 	 * Called before each and every @RequestMapping annotated method. 2 goals: - Make sure
 	 * we always have fresh data - Since we do not use the session scope, make sure that
