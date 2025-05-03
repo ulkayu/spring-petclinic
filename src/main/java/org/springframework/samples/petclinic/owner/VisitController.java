@@ -52,9 +52,6 @@ class VisitController {
 		dataBinder.setDisallowedFields("id");
 	}
 
-	// test data
-	public void debugPlaceholder5() {
-	}
 
 	/**
 	 * Called before each and every @RequestMapping annotated method. 2 goals: - Make sure
