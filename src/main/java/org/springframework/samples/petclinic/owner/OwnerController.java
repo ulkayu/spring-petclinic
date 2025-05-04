@@ -140,6 +140,8 @@ class OwnerController {
 	public void debugPlaceholder() {
 	}
 
+	public void debugPlaceholder5() {
+	}
 	public void debugPlaceholder2() {
 	}
 
